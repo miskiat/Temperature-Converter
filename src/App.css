@@ -1,4 +1,15 @@
+.container {
+  @apply border-green-700;
+}
 .enter {
+  color: hsl(188deg 53% 23%);
+  font-size: x-large;
+}
+.degree {
+  color: hsl(188deg 53% 23%);
+  font-size: x-large;
+}
+.convert {
   color: hsl(188deg 53% 23%);
   font-size: x-large;
 }
