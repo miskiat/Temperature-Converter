@@ -1,5 +1,5 @@
 .container {
-  @apply border-green-700;
+  @apply border-green-700 items-center justify-center bg-red-200 m-14;
 }
 .enter {
   color: hsl(188deg 53% 23%);
@@ -7,9 +7,15 @@
 }
 .degree {
   color: hsl(188deg 53% 23%);
-  font-size: x-large;
+  font-size: large;
 }
+.degree-box {
+  @apply h-8 w-80 bg-red-600 flex space-x-48;
+}
+/* .degree-boxx {
+  @apply pl-56 space-x-2;
+} */
 .convert {
   color: hsl(188deg 53% 23%);
-  font-size: x-large;
+  font-size: large;
 }

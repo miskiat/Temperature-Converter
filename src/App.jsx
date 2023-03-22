@@ -7,12 +7,16 @@ function App() {
         <h1 className="enter">Enter Temperature</h1>
         <div className="">
           <h2 className="degree">Degree</h2>
-          <span>0</span>
-          <sup>o</sup>
-          <span>C</span>
-          <select>
-            <option>F</option>
-          </select>
+          <div className="degree-box">
+            <span>0</span>
+            <div className="degree-boxx">
+              <sup>o</sup>
+              <span>C</span>
+              <select>
+                <option>F</option>
+              </select>
+            </div>
+          </div>
         </div>
         <div className="">
           <h2 className="convert">Convert In</h2>
