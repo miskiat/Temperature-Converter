@@ -1,5 +1,10 @@
 .container {
-  @apply border-green-700 items-center justify-center bg-red-200 m-14;
+  @apply border-green-700 items-center justify-center m-14 flex  rounded;
+  height: 100%;
+  width: 80%;
+}
+.left {
+  @apply bg-white  h-72 w-72;
 }
 .enter {
   color: hsl(188deg 53% 23%);
@@ -10,7 +15,8 @@
   font-size: large;
 }
 .degree-box {
-  @apply h-8 w-80 bg-red-600 flex space-x-48;
+  @apply h-8 w-80 flex space-x-48 rounded;
+  border: 1px solid grey;
 }
 /* .degree-boxx {
   @apply pl-56 space-x-2;
@@ -18,4 +24,7 @@
 .convert {
   color: hsl(188deg 53% 23%);
   font-size: large;
+}
+.answer {
+  @apply bg-teal-500 h-72 w-72 text-white font-bold font-extrabold  p-60 text-6xl;
 }
