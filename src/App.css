@@ -26,5 +26,5 @@
   font-size: large;
 }
 .answer {
-  @apply bg-teal-500 h-72 w-72 text-white font-bold font-extrabold  p-60 text-6xl;
+  @apply bg-teal-500 h-72 w-72 text-white font-bold font-extrabold  p-52 text-6xl flex;
 }

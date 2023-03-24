@@ -31,7 +31,10 @@ function App() {
 
         <div className="answer">
           <span>32</span>
-          <sup>o</sup>
+          <div>
+            <sup>o</sup>
+            <sup>F</sup>
+          </div>
         </div>
       </div>
     </div>
