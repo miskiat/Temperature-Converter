@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <div className="container">
         <div className="left">
           <h1 className="enter">Enter Temperature</h1>
@@ -25,8 +25,8 @@ function App() {
             <select>
               <option></option>
             </select>
-            <button>Convert </button>
           </div>
+          <button>Convert</button>
         </div>
 
         <div className="answer">
