@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="left">
+        {/* <div className="left">
           <h1 className="enter">Enter Temperature</h1>
           <div className="">
             <h2 className="degree">Degree</h2>
@@ -27,15 +27,15 @@ function App() {
             </select>
           </div>
           <button>Convert</button>
-        </div>
+        </div> */}
 
-        <div className="answer">
+        {/* <div className="answer">
           <span>32</span>
           <div>
             <sup>o</sup>
             <sup>F</sup>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

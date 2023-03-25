@@ -1,8 +1,8 @@
 .App {
-  @apply items-center justify-center flex bg-black w-screen h-screen;
+  @apply items-center justify-center flex bg-white w-screen h-screen overflow-hidden;
 }
 .container {
-  @apply border-green-700 items-center justify-center m-14 bg-red-500 h-[60%] w-[40%];
+  @apply border-green-700 border-2 rounded items-center justify-center  bg-red-500 h-[60%] min-w-[30%];
 }
 .left {
   @apply bg-white  h-72 w-72;
