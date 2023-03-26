@@ -9,28 +9,27 @@ function App() {
           <div className="">
             <h2 className="degree">Degree</h2>
             <div className="degree-box">
-              <span>0</span>
+              <input
+                className="flex-grow outline-none"
+                placeholder="0"
+                type={"number"}
+              />
 
               <div className="degree-boxx">
                 <sup>o</sup>
                 <span>C</span>
                 <select>
-                  <option></option>
+                  <option>F</option>
                 </select>
               </div>
             </div>
           </div>
-          <div className="">
-            <h2 className="convert">Convert In</h2>
-            <div className="convert-box">
-              <p>
-                Fahrenheit (<sup>o</sup>F)
-              </p>
-              <select>
-                <option></option>
-              </select>
-            </div>
-          </div>
+          <p className="convert">Convert in</p>
+          <select className="convert-box">
+            <option>Fahrenheit</option>
+            <option>Celcius</option>
+          </select>
+
           <button className="button">Convert</button>
         </div>
 

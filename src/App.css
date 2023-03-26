@@ -2,17 +2,17 @@
   @apply items-center justify-center flex bg-white w-screen h-screen overflow-hidden;
 }
 .containerrr {
-  @apply border-green-700 border-4 rounded-[1rem] h-[60%] min-w-[70%] flex;
+  @apply border-[#037982] border-4 rounded-[1rem] h-[60%] min-w-[70%] flex;
 }
 
 .left {
   @apply bg-white w-[50%] p-16 m-2;
 }
 .enter {
-  @apply text-emerald-900 font-normal text-4xl pb-14;
+  @apply text-[#037982] font-normal text-4xl pb-14;
 }
 .degree {
-  @apply font-medium text-[1.3rem] text-emerald-700 pb-5;
+  @apply font-medium text-[1.3rem] text-[#037982] pb-5;
 }
 .degree-box {
   @apply flex space-x-48 rounded h-10 pl-5 items-center border-gray-200 border-2;
@@ -21,14 +21,17 @@
   @apply space-x-[-2];
 }
 .convert {
-  @apply font-medium text-[1.3rem] text-emerald-700 pt-16;
+  @apply font-medium text-[1.3rem] text-[#037982] pt-16;
 }
-.convert-box {
-  @apply flex space-x-48 rounded h-10 pl-5 items-center border-gray-200 border-2;
+select.convert-box {
+  @apply w-full mt-4 flex space-x-48 rounded h-10 pl-5 items-center border-gray-200 border-2;
+}
+select option {
+  @apply text-[#037982];
 }
 .button {
-  @apply h-16 w-32 rounded-[2rem] bg-emerald-800 items-center justify-center m-20 text-white text-2xl;
+  @apply h-16 w-32 rounded-[2rem] bg-[#037982] items-center justify-center m-20 text-white text-2xl;
 }
 .answer {
-  @apply bg-emerald-800 text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
+  @apply bg-[#037982] text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
 }
