@@ -27,8 +27,8 @@
   @apply flex space-x-48 rounded h-10 pl-5 items-center border-gray-200 border-2;
 }
 .button {
-  @apply h-16 w-32 rounded-[2rem] bg-blue-800 items-center justify-center m-20 text-white text-2xl;
+  @apply h-16 w-32 rounded-[2rem] bg-emerald-800 items-center justify-center m-20 text-white text-2xl;
 }
 .answer {
-  @apply bg-emerald-800 text-white font-bold   text-6xl w-[50%];
+  @apply bg-emerald-800 text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
 }
