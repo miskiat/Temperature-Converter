@@ -19,12 +19,12 @@ function App() {
                 <sup>o</sup>
                 <span>C</span>
                 <select>
-                  <option>F</option>
+                  <option></option>
                 </select>
               </div>
             </div>
           </div>
-          <p className="convert">Convert in</p>
+          <p className="convert">Convert In</p>
           <select className="convert-box">
             <option>Fahrenheit</option>
             <option>Celcius</option>
