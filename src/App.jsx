@@ -30,7 +30,10 @@ function App() {
             <option>Celcius</option>
           </select>
 
-          <button className="button">Convert ></button>
+          <button className="button">
+            Convert
+            <img src="/public/arrow.svg" />
+          </button>
         </div>
 
         <div className="answer">
