@@ -30,7 +30,7 @@ select option {
   @apply text-[#037982];
 }
 .button {
-  @apply h-16 w-32 rounded-[2rem] bg-[#037982] items-center justify-center m-20 text-white text-2xl;
+  @apply h-16 w-36 rounded-[2rem] bg-[#037982] items-center justify-center mt-9 ml-20 text-white text-2xl flex gap-6;
 }
 .answer {
   @apply bg-[#037982] text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
