@@ -30,7 +30,7 @@ function App() {
             <option>Celcius</option>
           </select>
 
-          <button className="button">Convert</button>
+          <button className="button">Convert ></button>
         </div>
 
         <div className="answer">
