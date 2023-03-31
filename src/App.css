@@ -36,5 +36,5 @@ select option {
   @apply bg-[#037982] text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
 }
 .subscript {
-  @apply flex bg-red-800;
+  @apply font-light text-xs bg-red-800;
 }
