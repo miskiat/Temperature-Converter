@@ -15,11 +15,13 @@ function App() {
                 type={"number"}
               />
 
-              <div className="degree-boxx">
+              <div className="degree-boxx border-l-2 pl-3">
                 <sup>o</sup>
-                <span>C</span>
+
                 <select>
-                  <option></option>
+                  <option>C</option>
+                  <option>F</option>
+                  <option>K</option>
                 </select>
               </div>
             </div>
@@ -28,6 +30,7 @@ function App() {
           <select className="convert-box">
             <option>Fahrenheit</option>
             <option>Celcius</option>
+            <option>Kelvin</option>
           </select>
 
           <button className="button">
