@@ -38,9 +38,9 @@ function App() {
 
         <div className="answer">
           <span>32</span>
-          <div>
-            <sup className="subscript">o</sup>
-            <sup className="subscript">F</sup>
+          <div className="measurement">
+            <sup className="subscript text-sm ">o</sup>
+            <sup className="subscript text-3xl ">F</sup>
           </div>
         </div>
       </div>

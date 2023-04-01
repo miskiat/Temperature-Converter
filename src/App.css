@@ -35,6 +35,9 @@ select option {
 .answer {
   @apply bg-[#037982] text-white font-bold   text-6xl w-[50%] items-center justify-center flex;
 }
-.subscript {
-  @apply font-light text-xs bg-red-800;
+.measurement {
+  @apply pb-24 flex items-start;
+}
+sup {
+  @apply p-0 m-0;
 }
